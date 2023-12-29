@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li class="top">Home</li>
+            <li class="top">About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1 class="playlistName">Mood playlist</h1>
+            <div class="songsContainer">
+                <div class="songListItem">
+                    <div class="img">
+                        <img alt="1">
+                    </div>
+                    <div class="content">
+                        <div class="SongName">Let Me Down Slowely</div>
+                        <div class="playTime">02:49 <i  id="0" class="fa-regular songItemPlay fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="songListItem" >
+                    <div class="img">
+                        <img alt="1">
+                    </div>
+                    <div class="content">
+                        <div class="SongName">Let Me Down Slowely</div>
+                        <div class="playTime">04:05 <i id="1" class="fa-regular songItemPlay fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="songListItem" >
+                    <div class="img">
+                        <img alt="1">
+                    </div>
+                    <div class="content">
+                        <div class="SongName">Let Me Down Slowely</div>
+                        <div class="playTime">01:50 <i id="2" class="fa-regular songItemPlay fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="songListItem" >
+                    <div class="img">
+                        <img alt="1">
+                    </div>
+                    <div class="content">
+                        <div class="SongName">Let Me Down Slowely</div>
+                        <div class="playTime">03:28 <i id="3" class="fa-regular songItemPlay fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="songListItem" >
+                    <div class="img">
+                        <img alt="1">
+                    </div>
+                    <div class="content">
+                        <div class="SongName">Let Me Down Slowely</div>
+                        <div class="playTime">03:04 <i id="4" class="fa-regular songItemPlay fa-circle-play"></i></div>
+                    </div>
+                </div>
+                <div class="songListItem" >
+                    <div class="img">
+                        <img alt="1">
+                    </div>
+                    <div class="content">
+                        <div class="SongName">Let Me Down Slowely</div>
+                        <div class="playTime">02:52 <i id="5" class="fa-regular songItemPlay fa-circle-play"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <div class="SongGif">
+            <img src="200w.webp" width="25px" alt="1" id="gif" ><span id="masterName">LetMe Down Slowely</span></img>
+        </div>
+        <input type="range" name="range" id="ProgressBar" min="0"  value="0" max="100">
+        <div class="icons">
+            <!-- Used Font Awsome Kit -->
+            <i id="backwardButton" class="fa-solid  fa-2x fa-step-backward"></i>
+            <i class="fa-regular masterplay fa-2x fa-circle-play" id="masterplay"></i>
+            <i id="forwardButton" class="fa-solid  fa-2x fa-step-forward"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9f2ccdf5d7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

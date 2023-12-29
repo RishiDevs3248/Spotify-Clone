@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: ligh;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul{
+    display: flex ;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding-left:20px;
+}
+
+.top{
+    cursor: pointer;
+}
+
+.brand img{
+    height: 40px;
+    margin-left: 30px;
+    padding-right: 6px;
+}
+
+.brand{
+    display: flex;
+    align-items: center ;
+    font-weight: bold;
+}
+
+.container{
+    min-height: 68vh;
+    background: #000;
+    color:white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 20px auto;
+    width:70%;
+    display: flex;   
+    border-radius: 15px;
+    padding:20px; 
+    background-image: url("bg.jpg");
+    background-size:cover;
+}
+
+
+.songsContainer {
+    margin-top: 30px;
+}
+
+.songListItem{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(188, 184, 184) ;
+    color: #000;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.songListItem img{
+    padding-left :30px;
+    padding-top: 6px;
+    padding-right: 10px;
+    height: 40px;
+}   
+
+.content{
+    /* margin: 10px; */
+    width: 350px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.playTime i{
+    cursor: pointer;
+}
+
+.bottom{
+    background: #000;
+    height: 110px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.SongGif{
+    background-color: #000;
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    padding-right:8px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.SongGif img{
+    border: 2px;
+    background: #000;
+    height: 19px;
+    width: 70px;
+    padding: 0 10px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i{
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#ProgressBar{
+    width: 80vw;
+}
